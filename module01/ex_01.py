@@ -4,6 +4,7 @@ class Music:
         artist = ''
         duration = ''
 
+
 music = Music()
 music.name = 'Passada de Mão'
 music.artist = 'Dilsinho, Ana Castela'

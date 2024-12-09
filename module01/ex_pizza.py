@@ -8,4 +8,4 @@ class PizzaResturant:
 pizza = PizzaResturant
 print(pizza.category)
 pizza.active = True
-print(pizza.name,'\n', pizza.category,'\n', pizza.active)
+print(vars(pizza.name, pizza.category, pizza.active))

@@ -1,7 +1,7 @@
 class Restaurante:
 
     name = ''
-    category = 'Italiana'
+    category = 'Italian'
     active = True
 
 
@@ -12,6 +12,6 @@ if italian_food.active:
     print('The restaurant is active')
 else:
     print('The restaurant is inactive')
-italian_food.name = 'Bistrô'
+italian_food.name = 'Bistro'
 
 
