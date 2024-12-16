@@ -11,11 +11,11 @@ class Livro:
 
     def __str__(self):
         published_year = str(self.published_year)
-        # print('')
+        print('')
         return f' {self.title.ljust(25)} | {self.author.ljust(25)} | {published_year.ljust(6)}'
     
     def land(self):
-        self.available = False
+        self._available = False
 
     @staticmethod
     def check_availability(published_year):
