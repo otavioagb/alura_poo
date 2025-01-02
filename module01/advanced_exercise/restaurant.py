@@ -1,17 +1,17 @@
-class Restaurante:
+class Restaurant:
 
     name = ''
     category = 'Italian'
     active = True
 
 
-italian_food = Restaurante
-categoria = (italian_food.category)
-print(categoria)
+italian_food = Restaurant
+category = (italian_food.category)
+print(category)
 if italian_food.active:
     print('The restaurant is active')
 else:
     print('The restaurant is inactive')
-italian_food.name = 'Bistro'
+italian_food.name = 'Tagliatella'
 
 

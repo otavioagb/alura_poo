@@ -6,7 +6,7 @@ class Music:
 
 
 music = Music()
-music.name = 'Passada de Mão'
-music.artist = 'Dilsinho, Ana Castela'
-music.duration = '2:43'
+music.name = 'Leave the Door Open'
+music.artist = 'Anderson .Paak, Bruno Mars e Silk Sonic'
+music.duration = '4:09'
 print(vars(music))
